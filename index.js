@@ -19,7 +19,7 @@ function renderTasks() {
             </div>
         `;
         taskList.appendChild(taskItem);
-    });  
+    });
 }
 // Function to add a task
 function addTask() {
