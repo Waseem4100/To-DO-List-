@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#2a4782,#9a22b8);
+    padding: 10px;
+    
+}
+.todo-app{ 
+   
+    
+    width: 500px;
+    min-width: fit-content;
+    height: 400px;
+    min-height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 5px solid  #f74012;
+    border-radius: 15px;
+    background: hsl(0, 0%, 90%);
+    box-shadow: #f74012 0px 0px 15px;
+    
+
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#task-form{
+    align-items: center;
+    margin: 30px;
+}
+
+#task-input{
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+#add-task-btn
+{
+        padding: 20px;
+        margin-left: 10px;
+        height: 30px;
+        width: 100px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        padding: 7px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+      
+      
+} 
+#add-task-btn:hover
+{
+        transform: scale(1.1) translateY(-1px); 
+        border: 3px solid #f74012;
+        box-shadow: 0 0 25px #f74012; 
+       background-color: #f74012;
+      
+}
+
+.list-group{ 
+    min-width: fit-content;
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.task-text{
+    min-width: fit-content;
+    overflow: auto;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+ .task-actions{
+   margin-left: 180px;
+   margin-top: -25px;
+   margin-bottom: 30px;
+  padding: auto;
+  gap: 80px;
+
+ }
+
+
+.btn-danger{
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    padding: 7px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+  
+}
+
+.btn-danger:hover{
+    transform: scale(1.1) translateY(-1px); 
+    border: 3px solid   #d0271b;
+    box-shadow: 0 0 25px #d0271b; 
+   background-color: #d0271b;
+}
+
+.btn-warning{
+    padding: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    padding: 7px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+  
+  
+  }
+  .btn-warning:hover{
+    transform: scale(1.1) translateY(-1px); 
+    border: 3px solid #214dc6;;
+    box-shadow: 0 0 25px #214dc6;; 
+   background-color: #3e5eb6 ;
+  
+  }
